@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio &#9733;</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .header {
+            background-color: rgb(241, 170, 170);
+            color: white;
+            padding: 5px;
+            font-size: 24px;
+        }
+
+        .head {
+            margin: 20px 0;
+        }
+        
+
+        .head ul {
+            list-style-type: none;
+            padding: 2px;
+        }
+
+        .head ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .head ul li a {
+            text-decoration: none;
+            color: #5B5BFF ;
+            font-weight: bold;
+        }
+
+        .content-card {
+            max-width: 800px;
+            margin: 20px auto;
+            background: rgb(241, 170, 170);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: solid 3px 10px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            list-style-type: none;
+        }
+        .section li{
+            list-style-type: none;
+
+        }
+        .hover-zoom {
+        transition: transform 0.3s ease-in-out;
+        }
+        .hover-zoom:hover {
+           transform: scale(0.5); 
+        }
+
+        iframe, img {
+            width: 700px;
+            height: 450px;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .gmapic {
+            padding: 20px;
+            background: rgb(210, 119, 119); 
+            margin-bottom: 30px;
+
+        }
+        footer {
+            background-color: rgb(241, 170, 170);
+            color: white;
+            padding: 5px;
+            font-size: 24px;  
+
+        }
+        section a img{
+            width: 100px;
+            height: 100px;
+        }
+        
+    
+
+        
+    </style>
+
+    <!--favicon link -->
+    <link rel="icon" href="appicon.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <div class="header">
+        <h2 style="font-family: sans-serif;">Personal Portfolio Website &#9733;</h2>
+    </div>
+    
+    <div class="head">
+        <ul>
+            <li><a href="#video"><u>Video</u></a></li>
+            <li><a href="#map"><u>Location</u></a></li>
+            <li><a href="#emojis"><u>Emojis</u></a></li>
+        </ul>
+    </div>
+
+    <section id="youtube" class="content-card">
+        <div class="section" id="video">
+            <h2>Featured Video 🎥</h2>
+            <p span align-text="center">This is the video that we are interested  &lt;3. </p>
+            <iframe src="https://www.youtube.com/embed/7GPfaYgX2LM" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+        
+        <div class="content-card" id="map">
+            <h2>Clickable Map 🗺️</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.5918468813848!2d123.8934419747978!3d10.294432889826506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1741858933254!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <section id="gmapic" class="content-card">
+            <h2>School Logo</h2>
+            <img 
+                src="ceclogo.png"
+                width="600" height="450" style="border:0;" class="hover-zoom">
+            </img>
+        </section>
+            
+        </body>
+
+        <div class="section">
+            <h2>Special Characters & Symbol Entities</h2>
+            <p>&copy; &reg; &euro; &yen; &pound;</p>
+        </div>
+
+        <section id="section" class="emoji">
+            <div class="section" id="emojis">
+                <h2>Favorite Emojis 🎉</h2>
+                <ul>
+                    <li>&#128151; (Heart)</li>
+                    <li>&#127881; (Party Popper)</li>
+                    <li>&#128640; (Rocket)</li>
+                </ul>
+            </div>
+        </section>
+         </div>
+
+         <br>
+         <h3>You can also visit these socials</h3>
+         <section id="fb" class="logo">
+            <a href="https://www.facebook.com/ritzelyn.berdin.7/" target="_blank">
+                <img src="fb-removebg-preview.png" alt="facebook"
+                cursor="pointer" width="10%"></a>
+
+                <a href="https://www.instagram.com/tweety_berds?igsh=MTZ1OXFhdjdma2E5NQ==" target="_blank">
+                    <img src="insta-removebg-preview.png" alt="imstagram"
+                    cursor="pointer" width="5%" height="7%">
+                </a>
+
+                <a href="https://www.gmail.com" target="_blank">
+                    <img src="gmail-removebg-preview.png" alt="gmail" 
+                    cursor="pointer" width="10%">
+                </a>
+         </section>
+         
+        <br>
+
+    <footer>
+        <h2>All right reserved &copy; 2025</h2>
+    </footer>
+
+   
+
+</body>
+</html>
